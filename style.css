@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: black;
+}
+
+.paragraph {
+  font-size: 2.5rem;
+}
+
+p,
+fieldset {
+  padding-left: 5rem;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  gap: 8rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 70%;
+}
+
+.container {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+
+  max-width: 150rem;
+  height: 100rem;
+
+  display: flex;
+  align-items: center;
+  /* gap: 4rem; */
+
+  border-radius: 10px;
+  overflow: hidden;
+
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.096);
+}
+
+.image-box {
+  background-image: url(./images/leaves.jpg);
+  height: 100%;
+  width: 55%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.heading-box {
+}
+
+.heading-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 6rem;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.453);
+  padding: 2rem;
+  margin-top: 25rem;
+}
+
+.description {
+  margin-bottom: 8rem;
+  width: 80%;
+}
+
+.form-container {
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.096);
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.form-cell {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.form-cell input {
+  border-radius: 1px;
+  border: 1px solid rgb(133, 133, 133);
+  padding: 0.5rem;
+}
+
+.form-cell input:focus {
+  border: 1.2px solid black;
+}
+
+/* .form-cell input:valid {
+  border-color: green;
+} */
+
+.form-cell input:invalid {
+  border-color: red;
+}
+
+.button {
+  margin: 2rem 5rem;
+  padding: 1rem 4rem;
+  background-color: rgb(76, 110, 44);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.096);
+}
+
+.link:link,
+.link:visited {
+  color: rgb(76, 110, 44);
+  text-decoration: none;
+}
+
+.last-paragraph {
+  font-size: 1.8rem;
+}
+
+.credits-box {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.credits,
+.credits > * {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
